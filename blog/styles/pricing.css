@@ -1,0 +1,70 @@
+.pricing_table_container{
+                    float: left;
+                    margin-top: 20px;
+                    margin-left: 10%;
+                    width: auto;
+                    height: auto;   
+                    cursor: pointer;              
+                }
+                .pricing_table_container>h1{
+                    width:230px;
+                    height: 10px;
+                    padding: 10px;
+                    background: linear-gradient(#539325, #4E891B); /* Standard syntax */
+                    border-top-left-radius: 3px;
+                    border-top-right-radius: 3px;
+                    position: relative;
+                    top: -10px;
+                    font-size: 15px;
+                    font-weight: bold;
+                    text-align: center;
+                    color: #fff;                    
+                }
+                .price{
+                    width: 230px;
+                    height: 100px;
+                    padding: 10px;
+                    position: relative;
+                    top: -20px;
+                    background: url(../images/bg/patterns/binding_dark.png)repeat fixed;
+                    color: #fff;
+                    text-align: center;                    
+                }
+                .price_text{
+                    position: relative;
+                    top: 10px;
+                    font-size: 35px;
+                }
+                .pricing_content{
+                    width: 230px;
+                    height: auto;
+                    padding: 10px;
+                    position: relative;
+                    top: -50px;
+                    background: url(../images/bg/patterns/fieldset.png)repeat fixed;
+                    color: #000;  
+                    text-align: center;                 
+                }
+                .pricing_content ul>li{
+                    list-style-type: none;
+                    margin-top: 1px;
+                    padding-bottom: 5px;
+                    position: relative;
+                    right: 20px;
+                }
+                .pricing_submit{
+                    width: 250px;
+                    height: 35px;
+                    background: linear-gradient(#539325, #4E891B); /* Standard syntax */
+                    position: relative;
+                    border: 0;
+                    border-bottom-left-radius:3px;
+                    border-bottom-right-radius:3px;
+                    top: -68px;
+                    color: #fff;
+                    cursor: pointer;                 
+                }                   
+                .pricing_submit:hover{
+                    box-shadow: 0 0 2px 1px #888; 
+                    text-decoration: underline;                   
+                }

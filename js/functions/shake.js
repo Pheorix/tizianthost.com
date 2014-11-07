@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('#follow_us').fadeIn('slow');
+    $('.follow_image').mouseenter(function(){
+        $(this).rotate({
+          angle:100,
+          animateTo:360,
+       });
+    })
+});

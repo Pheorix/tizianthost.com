@@ -1,0 +1,70 @@
+#menu{  /* Main Menu DIV */
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(../images/bg/patterns/cbg_black.png) center repeat fixed;
+    z-index: 2;
+}
+#navi{
+    float: right;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#menu>ul{
+    float:right;
+}
+#menu>ul>li{  /*Main Menu Items, onclick -> Dropdown*/
+    float:left;
+    display:block;
+    padding: 15px;
+    color:#FFF;
+    width: 60px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    transition: background 0.5s linear;
+}
+#menu ul>li:hover{
+    background-color:rgba(255, 255, 255, 0.4);
+    transition: background 0.5s linear;
+    cursor: pointer;
+}
+#menu>ul>li ul{/*Dropdown List*/
+    display: none;
+    width: 200px;
+    position: relative;
+    top: 12px;
+    right: 15px;
+    cursor: pointer;
+    text-align: left;
+    transition: background 1s linear;
+    border-bottom-left-radius:5px;
+    border-right-bottom-radius:5px;
+}
+#menu>ul>li ul>li{ /*Dropdownmenu Items*/
+    height: 30px;
+    width: 90%;
+    text-transform: none;
+    padding: 10px;
+    transition: background 0.5s linear;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+#menu>ul>li ul>li:hover{
+    transition: background 0.5s linear;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+#menu a, a:visited{
+    color: #fff;
+    text-decoration: none;    
+}
+#menu a:hover{
+    color:#FFF;    
+}

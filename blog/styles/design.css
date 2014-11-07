@@ -1,0 +1,195 @@
+.welcome{
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    width: 900px;
+    height: auto;
+    position: absolute;
+    left:0;
+    right:0;
+    top: 35%;
+    margin-left:auto;
+    margin-right:auto;  
+    display: none;
+
+}
+#browser_info{
+    z-index: 10000;
+    position: absolute;
+    top:25%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    display:none;
+    border-radius:5px;
+    background-color:rgba(0, 0, 0, 0.9);
+    color: #fff;   
+    padding: 15px;    
+}
+#browser_info a, a:visited{
+    color:#fff;
+    text-decoration: none;
+}
+#browser_info a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+#follow_us{
+    z-index: 10000;
+    position: fixed;
+    right: 5px;
+    top: 25%;
+}     
+#follow_us ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    height: 75px;
+    transition: opacity linear 0.5s;
+    opacity:0.6;
+}
+#follow_us ul>li:hover{
+    cursor: pointer;
+    transition: opacity linear 0.5s;
+    opacity:1.0;
+}
+#follow_us ul>li:active{
+    cursor: pointer;
+    transition: opacity linear 0.5s;
+    opacity:0.6;
+}
+
+#slogan{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#slogan:hover{
+    cursor: pointer;
+}
+#content_wrapper{ 
+    width: auto;
+    height:100%;
+    position: absolute;
+    left:0;
+    right:0;
+    top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(../images/bg/patterns/light_toast.png) center repeat fixed;  
+    padding: 10px;
+    display: none;
+    overflow: auto;
+    z-index: 1;
+}
+#content_wrapper a,a:visited{
+    color: #000;
+    text-decoration: none; 
+    font-weight: bold;   
+}
+#content_wrapper a:hover{
+    color: #000;
+    text-decoration: underline;    
+}
+#content{
+    width: 700px;
+    min-height: 100%;
+    margin: 0 auto;
+    margin-top:-40px;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    background:#fff;
+    padding: 50px;
+    font-family: 'Source Sans Pro', Times New Roman, Arial;
+    font-weight: lighter;
+    letter-spacing: 0.03em;
+    word-spacing: 0.03em;
+    color: #000;
+    font-size: 18px;
+}
+#comment{
+    width: 100%;
+    height: auto;
+}
+.comment{
+    margin: 0 auto;
+    display: block;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    background: url(../images/patterns/cbg_black.png);
+    border-radius:5px;
+}
+#author{
+    width: 100%;
+    height: auto;  
+}
+.author_img{
+    cursor:pointer;
+    padding:5px;
+    width: 130px;
+    height:130px;
+    float: left;
+    border-radius:200px;
+    transition:opacity linear 1s;
+    opacity:0.6;
+}
+.author_img:hover{
+    transition:opacity linear 1s;
+    opacity:1.0;
+}
+#author_blockquote{
+    margin: 0 auto;
+    border-bottom:1px solid #000;
+    padding: 10px;
+}
+#author_blockquote>h3{
+    border-bottom:1px solid #000;    
+}
+#flag{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    z-index: 1000;
+    cursor: pointer;
+}
+#license{
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    z-index: 1500;
+}
+#web_tech{
+    margin-left: 5%;
+    list-style-type: none;
+    float:left; 
+}
+#web_tech li{
+    display: inline-block;
+}
+#web_tech li>img{
+    height: 100px;
+    width: 100px;
+    transition: opacity linear 0.5s;    
+    opacity:0.6;
+}
+#web_tech li>img:hover{
+    height: 100px;
+    width: 100px;
+    opacity:1.0;
+    transition: opacity linear 0.5s;
+    cursor: pointer;
+}
